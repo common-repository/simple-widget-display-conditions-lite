@@ -1,0 +1,99 @@
+.swdcl_admin_title{
+	margin:1.5em 0 0;
+	font-weight:normal;
+}
+.swdcl_admin{
+	border:1px solid #ccc;
+	position: relative;
+	background:#fff;
+	margin:80px 15px 0 0;
+	padding:0 25px 25px;
+}
+.swdcl_admin h2{
+	margin:30px 0 0;
+	position:relative;
+	padding:0 0 0 1.2em;
+}
+.swdcl_admin h2:before{
+	font-family:'dashicons';
+	content: "\f111";
+	opacity:.4;
+	position:absolute;
+	top:50%;
+	left:0;
+	transform:translateY(-50%);
+}
+.swdcl_img img{
+	max-width:100%;
+	height:auto;
+}
+
+#swdcl_m1,#swdcl_m2,#swdcl_m3,#swdcl_m4{
+	display:none;
+}
+.swdcl_admin_menu_list_1,.swdcl_admin_menu_list_2,.swdcl_admin_menu_list_3,.swdcl_admin_menu_list_4{
+	background:#eee;
+	border:1px solid #ccc;
+	padding:0px;
+	text-align:center;
+	transition: 0.3s ease-in-out;
+}
+.swdcl_admin_content_1,.swdcl_admin_content_2,.swdcl_admin_content_3,.swdcl_admin_content_4 {
+	display:none;
+	transition: 0.3s ease-in-out;
+}
+
+.swdcl_admin_menu_list_1,.swdcl_admin_menu_list_2,.swdcl_admin_menu_list_3,.swdcl_admin_menu_list_4 {
+	position: absolute;
+	top:-42px;
+	width:180px;
+	display:inli-block;
+	height:40px;
+	line-height:40px;
+}
+@media screen and (max-width: 480px) {
+.swdcl_admin_menu_list_1,.swdcl_admin_menu_list_2,.swdcl_admin_menu_list_3,.swdcl_admin_menu_list_4 {
+	width:calc(50% - 1px);
+}
+.swdcl_admin_menu_list_1 {
+	left:0px;
+}
+.swdcl_admin_menu_list_2 {
+	left:50%;
+}
+.swdcl_admin_menu_list_3 {
+	left:360px;
+}
+.swdcl_admin_menu_list_4 {
+	left:540px;
+}
+}
+@media screen and (min-width: 481px) {
+.swdcl_admin_menu_list_1,.swdcl_admin_menu_list_2,.swdcl_admin_menu_list_3,.swdcl_admin_menu_list_4 {
+	width:180px;
+}
+.swdcl_admin_menu_list_1 {
+	left:0px;
+}
+.swdcl_admin_menu_list_2 {
+	left:180px;
+}
+.swdcl_admin_menu_list_3 {
+	left:360px;
+}
+.swdcl_admin_menu_list_4 {
+	left:540px;
+}
+}
+
+#swdcl_m1:checked ~ .swdcl_admin_content_1,#swdcl_m2:checked ~ .swdcl_admin_content_2,#swdcl_m3:checked ~ .swdcl_admin_content_3,#swdcl_m4:checked ~ .swdcl_admin_content_4 {
+	display:block;
+	-webkit-transition: 0.3s ease-in-out;
+	-moz-transition: 0.3s ease-in-out;
+	-o-transition: 0.3s ease-in-out;
+	transition: 0.3s ease-in-out;
+}
+#swdcl_m1:checked ~ .swdcl_admin_menu_list_1,#swdcl_m2:checked ~ .swdcl_admin_menu_list_2,#swdcl_m3:checked ~ .swdcl_admin_menu_list_3,#swdcl_m4:checked ~ .swdcl_admin_menu_list_4 {
+	background:#fff;
+	border-bottom:1px solid #fff;
+}

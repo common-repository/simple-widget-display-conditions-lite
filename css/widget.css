@@ -1,0 +1,146 @@
+.swdcl_title:before,.swdcl_none:checked ~ .swdcl_title:before,.swdcl_content {
+	display:block;
+	transition: 0.3s ease-in-out;
+}
+.swdcl_w_div{
+	float:left;
+	width:calc(48% - 22px);
+	margin: 10px 0;
+	padding: 0px 10px 5px;
+	border:1px solid #ccc;
+	border-radius: 3px;
+}
+.swdcl_w_div100{
+	width:calc(100% - 22px);
+	padding: 0px 10px 10px;
+}
+.swdcl_bg_red{
+	background:#fff9f9;
+}
+.swdcl_bg_blue{
+	background:#f9f9ff;
+}
+.swdcl_bg_green{
+	background:#f9fffa;
+}
+.swdcl_bg_yellow{
+	background:#fffef9;
+}
+.swdcl_bg_purple{
+	background:#fdf9ff;
+}
+.swdcl_bg_lightgray{
+	background:#f9f9f9;
+	margin:10px 0 !important;
+}
+.touka{
+	opacity: 0.6;
+}
+.maisp{
+	margin-top:-10px !important;
+}
+.swdcl_w_sp{
+	margin: 10px 4% 15px 0 !important;
+}
+.swdcl_w_div_label{
+	margin: -13px 0 5px !important;
+}
+.swdcl_w_div_label span{
+	background:#fff;
+	padding:0 5px;
+	font-size:.9em;
+}
+.swdcl_w_tate{
+	position: relative;
+	margin: 10px 5px 5px;
+}
+.swdcl_w_list{
+	display:inline-block;
+	width:104px;
+	font-size:0.9em;
+}
+.swdcl_w_tate label{
+	position: absolute;
+	left:20px;
+	top:-1px;
+}
+.swdcl_widefat{
+	position: absolute;
+	left:50px;
+	top:-6px;
+	width:40px;
+}
+.swdcl_w_key{
+	width:120px;
+	display:inline-block;
+}
+.swdcl_w_value{
+	width:calc(100% - 130px);
+	display:inline-block;
+}
+.swdcl{
+	display: flex;
+	width:100%;
+	align-items: center;
+}
+.swdcl_block{
+	display: block !important;
+}
+.swdcl input{
+	width:100%;
+}
+.swdcl input.swdcl_width{
+	margin-right:5px;
+}
+.swdcl label{
+	padding-right:5px;
+}
+.swdcl_title {
+	position: relative;
+	font-weight:bold;
+	padding:0 0 0 20px;
+}
+.swdcl_title:before {
+	color:#0085ba;
+	font-size:1.3em;
+	font-family: "dashicons";
+	content: "\f153";
+	position: absolute;
+	left:0;
+	top:50%;
+	transform:translateY(-50%) rotate(-225deg);
+}
+.swdcl_div {
+	margin:20px 0 10px;
+}
+.swdcl_small {
+	color: #666;
+	font-size:0.9em;
+	padding:0 0 5px;
+}
+.swdcl_none {
+	display:none !important;
+}
+.swdcl_content {
+	height: 0;
+	margin:10px 0 0;
+	overflow: hidden;
+	opacity: 0;
+}
+.swdcl_none:checked ~ .swdcl_content {
+	height: auto;
+	opacity: 1;
+}
+.swdcl_none:checked ~ .swdcl_title:before {
+	transform:translateY(-50%) rotate(0);
+	color:#c00;
+}
+::-webkit-input-placeholder {
+	opacity: 0.7;
+}
+::-moz-placeholder {
+	opacity: 0.7;
+}
+:-ms-input-placeholder {
+	opacity: 0.7;
+}

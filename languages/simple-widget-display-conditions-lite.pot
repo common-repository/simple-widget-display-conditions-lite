@@ -1,0 +1,177 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Simple widget display conditions Lite\n"
+"POT-Creation-Date: 2019-10-18 04:23+0900\n"
+"PO-Revision-Date: 2018-05-18 00:26+0900\n"
+"Last-Translator: \n"
+"Language-Team: Yossy's web service\n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: conditions-filter.php:30 widget-form.php:48 widget-form.php:63
+msgid "Display other than above"
+msgstr ""
+
+#: swdcl-admin.php:19
+msgid "How to use"
+msgstr ""
+
+#: swdcl-admin.php:22
+msgid "Getting started"
+msgstr ""
+
+#: swdcl-admin.php:23
+msgid "Set the widget from the widget page or theme customizer."
+msgstr ""
+
+#: swdcl-admin.php:24
+msgid "Go to widget page"
+msgstr ""
+
+#: swdcl-admin.php:25
+msgid "Go to customizer"
+msgstr ""
+
+#: swdcl-admin.php:27
+msgid "Explanation"
+msgstr ""
+
+#: swdcl-admin.php:28
+msgid "See the following article:"
+msgstr ""
+
+#: swdcl-admin.php:30
+msgid "Please ask questions from the comments."
+msgstr ""
+
+#: swdcl-admin.php:31
+msgid "If you find any strange behavior, please report it as it will be corrected."
+msgstr ""
+
+#: swdcl-admin.php:35
+msgid "Screenshot"
+msgstr ""
+
+#: swdcl-admin.php:38
+msgid "Step1"
+msgstr ""
+
+#: swdcl-admin.php:39
+msgid "Click‘display conditions'."
+msgstr ""
+
+#: swdcl-admin.php:43
+msgid "Step2"
+msgstr ""
+
+#: swdcl-admin.php:44
+msgid "Please set."
+msgstr ""
+
+#: swdcl-admin.php:49
+msgid "More functional"
+msgstr ""
+
+#: swdcl-admin.php:52
+msgid "Introduction of \"Simple widget display conditions\" with added functions"
+msgstr ""
+
+#: swdcl-admin.php:53
+msgid "The following functions have been added compared to the Lite version."
+msgstr ""
+
+#: swdcl-admin.php:55
+msgid "- Tag ID specification"
+msgstr ""
+
+#: swdcl-admin.php:56
+msgid "- Specify browser width"
+msgstr ""
+
+#: swdcl-admin.php:57
+msgid "- Word specification included in URL"
+msgstr ""
+
+#: swdcl-admin.php:60
+msgid "Click here for details"
+msgstr ""
+
+#: widget-form.php:23
+msgid "Display condition"
+msgstr ""
+
+#: widget-form.php:28
+msgid "Specify hidden pages:"
+msgstr ""
+
+#: widget-form.php:31
+msgid "Top Page"
+msgstr ""
+
+#: widget-form.php:31
+msgid "Single"
+msgstr ""
+
+#: widget-form.php:31
+msgid "Page"
+msgstr ""
+
+#: widget-form.php:31
+msgid "Category"
+msgstr ""
+
+#: widget-form.php:31
+msgid "Tag"
+msgstr ""
+
+#: widget-form.php:31
+msgid "Author"
+msgstr ""
+
+#: widget-form.php:31
+msgid "Archive"
+msgstr ""
+
+#: widget-form.php:31
+msgid "Search"
+msgstr ""
+
+#: widget-form.php:31
+msgid "404"
+msgstr ""
+
+#: widget-form.php:31
+msgid "logined"
+msgstr ""
+
+#: widget-form.php:31
+msgid "Not login"
+msgstr ""
+
+#: widget-form.php:42
+msgid "Cat_ID specification:"
+msgstr ""
+
+#: widget-form.php:44 widget-form.php:59
+msgid "ID:"
+msgstr ""
+
+#: widget-form.php:44 widget-form.php:59
+msgid "Ex: 3,20,567"
+msgstr ""
+
+#: widget-form.php:48 widget-form.php:63
+msgid "Display only the above"
+msgstr ""
+
+#: widget-form.php:57
+msgid "Post_ID specification:"
+msgstr ""
